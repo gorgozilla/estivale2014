@@ -99,6 +99,7 @@ $user = JFactory::getUser();
 
 	<div class="slider_container">
 		<div class="slider_prog theme-bar">
+      <img src="<?php echo JURI::base() . '/templates/'.$this->template.'/images/slider/thanks_2015.jpg'; ?>" />
 			<a href="index.php/programme/pascal-obispo"><img src="<?php echo JURI::base() . '/templates/'.$this->template.'/images/slider/obispo.jpg'; ?>" /></a>
 			<a href="index.php/programme/william-white"><img src="<?php echo JURI::base() . '/templates/'.$this->template.'/images/slider/william_white.jpg'; ?>" /></a>
 			<a href="index.php/programme/noa-moon"><img src="<?php echo JURI::base() . '/templates/'.$this->template.'/images/slider/noa_moon.jpg'; ?>" /></a>
@@ -141,7 +142,7 @@ $user = JFactory::getUser();
 		</div>
 		
 		<div id="partners">
-			<h5>Sponsors principaux</h5>
+			<h5>Sponsors & Partenaires</h5>
 			<a href="http://www.raiffeisen.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/raiffeisen.gif'; ?>" title="Reiffeisen" /></a>
 			<a href="https://www.loro.ch/fr"><img src="<?php echo JURI::base() . 'images/partenaires/logo_loro.gif'; ?>" title="Loterie Romande" /></a>
 			<a href="http://www.estavayer-le-lac.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/Estavayer-le-Lac.jpg'; ?>" title="Commune d'Estavayer-le-Lac" /></a>
@@ -156,7 +157,8 @@ $user = JFactory::getUser();
 			<a href="http://www.frigaz.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/frigaz.jpg'; ?>" title="Frigaz" /></a>
 			<a href="http://www.takeoffproductions.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/takeoff_productions.jpg'; ?>" title="TAKEOFF PRODUCTIONS" /></a>
 			<a href="http://www.mx3.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/mx3.jpg'; ?>" title="MX3" /></a>
-			<a href="http://www.hotelduport.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/logo_hrdp.png'; ?>" title="MX3" /></a>
+			<a href="http://www.hotelduport.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/logo_hrdp.png'; ?>" title="Hôte du Port" /></a>
+      <a href="http://www.rtn.ch/"><img src="<?php echo JURI::base() . 'images/partenaires/rtn.jpg'; ?>" title="RTN" /></a>
 		</div>
 
 		<div id="contact">
